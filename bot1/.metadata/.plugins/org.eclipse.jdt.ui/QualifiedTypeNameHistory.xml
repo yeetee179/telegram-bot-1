@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.telegram.telegrambots.bots.TelegramLongPollingBot"/>
+<fullyQualifiedTypeName name="org.telegram.telegrambots.api.objects.Update"/>
+<fullyQualifiedTypeName name="org.telegram.telegrambots.api.methods.send.SendMessage"/>
+<fullyQualifiedTypeName name="org.telegram.telegrambots.ApiContextInitializer"/>
+<fullyQualifiedTypeName name="org.telegram.telegrambots.exceptions.TelegramApiRequestException"/>
+<fullyQualifiedTypeName name="org.telegram.telegrambots.TelegramBotsApi"/>
+</qualifiedTypeNameHistroy>
