@@ -18,7 +18,9 @@ public class Bot extends TelegramLongPollingBot{
         
         //send message
         SendMessage sendMessage = new SendMessage().setChatId(update.getMessage().getChatId());
-        sendMessage.setText("Hello as" + update.getMessage().getFrom().getFirstName() + "\n" + update.getMessage().getText());
+//        sendMessage.setText("Hello " + update.getMessage().getFrom().getFirstName() + "\n" + update.getMessage().getText());
+        sendMessage.setText("Hello ");
+
         try {
             sendMessage(sendMessage);
         } 
@@ -33,3 +35,4 @@ public class Bot extends TelegramLongPollingBot{
     }
 
 }
+

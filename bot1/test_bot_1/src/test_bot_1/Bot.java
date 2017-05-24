@@ -18,8 +18,8 @@ public class Bot extends TelegramLongPollingBot{
         
         //send message
         SendMessage sendMessage = new SendMessage().setChatId(update.getMessage().getChatId());
-//        sendMessage.setText("Hello " + update.getMessage().getFrom().getFirstName() + "\n" + update.getMessage().getText());
-        sendMessage.setText("Hello ");
+        sendMessage.setText("Hello " + update.getMessage().getFrom().getFirstName() + "\n" + update.getMessage().getText());
+//        sendMessage.setText("Hello ");
 
         try {
             sendMessage(sendMessage);
